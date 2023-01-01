@@ -3,14 +3,12 @@ const email = document.getElementById("email");
 const pass = document.getElementById("password");
 const conf = document.getElementById("confPwd");
 const form = document.getElementById("form");
-const submit = document.querySelector('.bts');
+const submit = document.querySelector(".bts");
 
 form.addEventListener("keyup", (e) => {
   e.preventDefault();
   validationInp();
- 
 });
-
 
 const setError = (element, message) => {
   const formControl = element.parentElement;
@@ -90,11 +88,10 @@ const validationInp = () => {
     valid = false;
   } else {
     setSeccess(conf);
-    valid= true;
+    valid = true;
   }
- 
 
- if (valid){
-  form.setAttribute("action","/index.html");
- }
+  if (valid) {
+    form.setAttribute("action", "index.html");
+  }
 };
