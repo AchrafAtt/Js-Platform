@@ -1,16 +1,16 @@
 @font-face {
   font-family: eatFont;
-  src: url(/Font/KGHAPPY.ttf);
+  src: url(Font/KGHAPPY.ttf);
 }
 @font-face {
   font-family: comic;
-  src: url(/Font/Hey\ Comic.ttf);
+  src: url(Font/Hey\ Comic.ttf);
 }
-.comicF{
+.comicF {
   font-family: comic;
 }
 
-.eatText{
+.eatText {
   font-family: eatFont;
 }
 
@@ -19,7 +19,7 @@
   border-color: rgb(255, 194, 61);
 }
 
-.form-control.success{
+.form-control.success {
   border-color: rgb(26, 146, 26);
 }
 .form-control.error {
@@ -28,14 +28,11 @@
 
 .form-outline .error {
   color: rgb(223, 46, 46);
-  
 }
-.cardcourses{
+.cardcourses {
   width: 18rem;
-  
 }
 
-.cardcourses img{
+.cardcourses img {
   height: 180px;
-  
 }
