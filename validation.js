@@ -92,6 +92,6 @@ const validationInp = () => {
   }
 
   if (valid) {
-    form.setAttribute("action", "index.html");
+    form.setAttribute("action", "home.html");
   }
 };
